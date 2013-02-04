@@ -4,3 +4,7 @@
 *.bak
 
 *.rpyc
+
+log.txt
+
+tmp/navigation.json
