@@ -8,6 +8,6 @@
 * Fart meter
 	* need I say more?
 	* The game gets harder (faster rising fart meter) based on what Stag orders for his meal
-* Occasionally, all of Horse's dialog choices are awful because he is super social awkward and possibly autistic autistic
+* Occasionally, all of Horse's dialog choices are awful because he is super social awkward and possibly autistic
 * Fully voice acted?
 	* Yes.
