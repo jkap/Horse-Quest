@@ -11,3 +11,20 @@
 * Occasionally, all of Horse's dialog choices are awful because he is super social awkward and possibly autistic
 * Fully voice acted?
 	* Yes.
+* Horse has a vicodin addiction
+* Typing game elements (word salad challenge)
+* Shitty inconsistent art styles
+* Horse can only get enough courage to take home a girl when he is on enough drugs
+	* He can only get off by eating grain from her hand
+	* Grains makes him need to fart more
+	* Balance of fart and pleasure meters
+* Horse is racist?
+	* Black stallion steals his woman?
+	* Horse realizes he hates blacks?
+* Horse opens the door to his roommate's room to see him fucking two shetland ponies
+* He buys a prostitute and realizes halfway through it's a male donkey
+* Muybridge
+	* Possible character
+	* Muybridge horse gif as porn
+* Horse races?
+	* 

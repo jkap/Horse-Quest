@@ -6,6 +6,7 @@
 image bg stable = "images/horses_in_stable.jpg"
 # Declare characters used by this game.
 
+define narrator = Character(None)
 
 # The game starts here.
 label start:
@@ -14,4 +15,5 @@ label start:
 
   "HORSE QUEST: THE QUEST OF A LIFETIME"
   "IN WHICH YOU, A BRAVE HORSE HERO, MUST WIN THE AFFECTION OF THE LADYHORSE OF YOUR DREAMS"
+  "WHILE NAVIGATING THIS CRUEL HORSE WORLD IN WHICH YOU LIVE"
   return
