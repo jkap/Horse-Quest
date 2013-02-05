@@ -10,6 +10,6 @@ define n = Character('Narrarator')
 # The game starts here.
 label start:
 
-    n "HORSE QUEST: THE QUEST OF A LIFETIME"
-
-    return
+  "HORSE QUEST: THE QUEST OF A LIFETIME"
+  "IN WHICH YOU, A BRAVE HORSE HERO, MUST WIN THE AFFECTION OF THE LADYHORSE OF YOUR DREAMS"
+  return
