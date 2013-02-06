@@ -51,9 +51,30 @@ label apartment1:
   scene bg apartment shitty
   with dissolve
 
-  "It's been a year since I graduated from Horstroit University and since then, I haven't accomplished much of anything."
+  "Fuucccckkkk.... I need a pick me up."
+
+  show horse at truecenter
+  with dissolve
+
+  "Shit, almost out of pills. I need to get some more. Need to call Hyperion."
+
+  hide horse
+  with dissolve
+
+  "WHERE THE FUCK IS MY PHONE"
 
   scene bg apartment living room
   with dissolve
 
-  "test"
+  neighthan "Hey Tony, have you seen my phone?"
+  tony "Nah, man. You need to borrow mine?"
+  neighthan "Yeah, thanks."
+
+  scene bg apartment shitty
+  with dissolve
+
+  "C'mon, pick up."
+  hyperion "Speak"
+  neighthan "Hyperion, it's Neighthan"
+  hyperion "Hey, my man. What can Hyperion do for you?"
+
