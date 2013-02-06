@@ -1,4 +1,4 @@
-label c1s1:
+label park_dream1:
   scene bg park
 
   "Boy, this sure is a beautiful day"
@@ -42,10 +42,10 @@ label c1s1:
   scene black
   with Pause(2)
 
-  jump c1s2
+  jump apartment1
 
 
-label c1s2:
+label apartment1:
   "So... it was just a dream."
 
   scene bg apartment shitty

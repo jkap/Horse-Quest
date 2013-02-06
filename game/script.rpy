@@ -30,6 +30,8 @@ image bg apartment living room = Animation("images/animation/living room00.jpg",
 define narrator = Character(None)
 define neighthan = Character('Neighthan')
 define lh = Character('???')
+define tony = Character('Tony')
+define hyperion = Character('Hyperion')
 
 init:
   python:
@@ -39,5 +41,5 @@ init:
 
 # The game starts here.
 label start:
-    jump c1s1
+    jump park_dream1
 
