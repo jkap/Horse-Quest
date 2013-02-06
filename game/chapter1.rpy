@@ -51,4 +51,9 @@ label c1s2:
   scene bg apartment shitty
   with dissolve
 
-  "ugh"
+  "It's been a year since I graduated from Horstroit University and since then, I haven't accomplished much of anything."
+
+  scene bg apartment living room
+  with dissolve
+
+  "test"
