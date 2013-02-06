@@ -77,4 +77,53 @@ label apartment1:
   hyperion "Speak"
   neighthan "Hyperion, it's Neighthan"
   hyperion "Hey, my man. What can Hyperion do for you?"
+  neighthan "I need some more pills."
+  hyperion "Hyperion's running a little short right now, but Hyperion will see what he can do. When do you need them?"
+  
+  menu:
+    "Today":
+        jump hypToday
+    "Tomorrow":
+        jump hypTomorrow
+
+label hypToday:
+    neighthan "Today. I need them today. I'm almost out."
+    hyperion "That's gonna cost you. Hyperion has to go through a lot of trouble to get more today, ya dig?"
+    neighthan "How much extra?"
+    hyperion "$6 per"
+    
+    show horse at truecenter
+    
+    "Shit, only enough for half"
+    
+    hide horse
+    
+    neighthan "I've only got enough for half a bottle."
+    hyperion "Well, Hyperion can get you half today and the rest later."
+    neighthan "I..."
+    neighthan "I guess that works."
+    hyperion "Aight, meet Hyperion at the park in two hours. Don't be late."
+    
+    jump hypHangsUp
+    
+label hypTomorrow:
+    neighthan "I can wait until tomorrow, I've got a bit left."
+    hyperion "Aight, Hyperion will get you some for tomorrow. Regular price, you got enough?"
+    
+    show horse at truecenter
+    
+    "Just barely enough."
+    
+    hide horse
+    
+    neighthan "Yeah, get me a full bottle. I'll see you tomorrow."
+    hyperion "Noon at the park. Don't be late."
+    
+    jump hypHangsUp
+    
+label hypHangsUp:
+    "...doesn't even say goodbye. What a dick."
+    "Now... where is my phone?"
+    
+    scene black with fade
 
