@@ -53,12 +53,12 @@ label apartment1:
 
   "Fuucccckkkk.... I need a pick me up."
 
-  show horse at truecenter
+  show pillbottle at truecenter
   with dissolve
 
   "Shit, almost out of pills. I need to get some more. Need to call Hyperion."
 
-  hide horse
+  hide pillbottle
   with dissolve
 
   "WHERE THE FUCK IS MY PHONE"
@@ -72,6 +72,9 @@ label apartment1:
 
   scene bg apartment shitty
   with dissolve
+  
+  show phone at truecenter
+  with dissolve
 
   "C'mon, pick up."
   hyperion "Speak"
@@ -82,8 +85,10 @@ label apartment1:
   
   menu:
     "Today":
+        $ hyp_today = True
         jump hypToday
     "Tomorrow":
+        $ hyp_today = False
         jump hypTomorrow
 
 label hypToday:
@@ -92,11 +97,11 @@ label hypToday:
     neighthan "How much extra?"
     hyperion "$6 per"
     
-    show horse at truecenter
+    show wallet at truecenter with dissolve
     
     "Shit, only enough for half"
     
-    hide horse
+    hide wallet with dissolve
     
     neighthan "I've only got enough for half a bottle."
     hyperion "Well, Hyperion can get you half today and the rest later."
@@ -110,11 +115,11 @@ label hypTomorrow:
     neighthan "I can wait until tomorrow, I've got a bit left."
     hyperion "Aight, Hyperion will get you some for tomorrow. Regular price, you got enough?"
     
-    show horse at truecenter
+    show wallet at truecenter with dissolve
     
     "Just barely enough."
     
-    hide horse
+    hide wallet with dissolve
     
     neighthan "Yeah, get me a full bottle. I'll see you tomorrow."
     hyperion "Noon at the park. Don't be late."
@@ -122,8 +127,50 @@ label hypTomorrow:
     jump hypHangsUp
     
 label hypHangsUp:
+    hide phone with dissolve
+    
     "...doesn't even say goodbye. What a dick."
     "Now... where is my phone?"
     
     scene black with fade
+    
+    if hyp_today:
+        jump goToPark
+    else:
+        jump goToPark
 
+label goToPark:
+    scene bg park
+    with dissolve
+    
+    "Where the fuck is he?"
+    
+    show phone at truecenter
+    "He makes such a big deal about being late, and then he's late."
+    hide phone
+    
+    "If I didn't need the pills so badly, I'd just go."
+    "This is bullshit."
+    $ Pause(2)
+    "Fuck it, I'm leaving."
+    hyperion "Neight! Where you goin'?"
+    
+    show horse
+    neighthan "Oh... h-hey Hyperion. What's, uh..." 
+    neighthan "What's up, my ninja?"
+    hyperion "Yeah, yeah. It's good. You got the money?"
+    neighthan "Oh yeah, of course. Right here."
+    
+    show wallet at truecenter with dissolve
+    "I give him the money, he gives me the pills. Easy."
+    hide wallet
+    show pillbottle at truecenter with dissolve
+    "OK, now I put it away."
+    hide pillbottle
+    
+    hyperion "...alright, we're done here. Hyperion'll see you around."
+    neighthan "Uh, yeah. Thanks, man."
+    hyperion "Whatever."
+    hide horse
+    
+    

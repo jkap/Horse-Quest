@@ -11,6 +11,9 @@ image horse warp1 sad = "images/horse warp1 sad.png"
 image horse warp2 = "images/horse warp2.png"
 image horse warp3 = "images/horse warp3.png"
 image horse warp4 = "images/horse warp4.png"
+image phone = "images/horse-phone.png"
+image wallet = "images/horse-wallet.png"
+image pillbottle = "images/pill-bottle.png"
 
 image bg apartment living room = Animation("images/animation/living room00.jpg", 0.1,
                                         "images/animation/living room01.jpg", 0.1,
