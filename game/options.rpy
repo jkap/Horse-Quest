@@ -243,7 +243,7 @@ init -1 python hide:
     ## stored. (It needs to be set early, before any other init code
     ## is run, so the persisten information can be found by the init code.)
 python early:
-    config.save_directory = "Stag Quest-1359936748"
+    config.save_directory = "Horse Quest-1359936748"
 
 init -1 python hide:
     #########################################
@@ -274,12 +274,12 @@ init python:
     ## The name that's used for directories and archive files. For example, if
     ## this is 'mygame-1.0', the windows distribution will be in the
     ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "Stag Quest-1.0"
+    build.directory_name = "Horse Quest-1.0"
     
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
     ## users can click 'mygame.exe' to start the game.
-    build.executable_name = "Stag Quest"
+    build.executable_name = "Horse Quest"
     
     ## If True, Ren'Py will include update information into packages. This
     ## allows the updater to run.
