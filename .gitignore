@@ -12,3 +12,5 @@ tmp/navigation.json
 tmp/lint.txt
 
 *.aif
+
+thumbs.db
